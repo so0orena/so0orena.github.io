@@ -14,19 +14,20 @@
   <body>
      <div class="row">
       <div class="col">
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark justify-content-lg-end">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark justify-content-lg-start">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-              <div class="navbar-nav ml-auto" style="float:right">
-                <a class="nav-item nav-link" style="cursor:pointer;" onclick="ScrollToElement(contact,this);" >ارتباط با ما</a>
-                <a class="nav-item nav-link" style="cursor:pointer;" onclick="ScrollToElement(blog,this);" >رویدادها</a>
-                <a class="nav-item nav-link" style="cursor:pointer;" onclick="ScrollToElement(products,this);" >محصولات</a>
-                <a class="nav-item nav-link" style="cursor:pointer;" onclick="ScrollToElement(gallery,this);" >گالری</a>
-                <a class="nav-item nav-link" style="cursor:pointer;" onclick="ScrollToElement(aboutUs,this);" >در مورد ما</a>
+              <div class="navbar-nav ml-auto" style="float:right;direction:rtl;">
+                
                 <a class="nav-item nav-link active" style="cursor:pointer;" onclick="ScrollToElement(landing,this);" >خانه</a>
+                <a class="nav-item nav-link" style="cursor:pointer;" onclick="ScrollToElement(aboutUs,this);" >در مورد ما</a>
+                <a class="nav-item nav-link" style="cursor:pointer;" onclick="ScrollToElement(gallery,this);" >گالری</a>
+                <a class="nav-item nav-link" style="cursor:pointer;" onclick="ScrollToElement(products,this);" >محصولات</a>
+                <a class="nav-item nav-link" style="cursor:pointer;" onclick="ScrollToElement(blog,this);" >رویدادها</a>
+                <a class="nav-item nav-link" style="cursor:pointer;" onclick="ScrollToElement(contact,this);" >ارتباط با ما</a>
 
               </div>
               
@@ -44,7 +45,7 @@
         <section id="landing" class="panels">
            <div class="row">
              <div class="col">
-                <p class="animation-landing" style="top:100px;">هنر نو</p>
+                <p class="animation-landing" style="top:15px;">هنر نو</p>
              </div>
              </div>
            </div>
