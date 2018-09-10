@@ -86,7 +86,7 @@ body{
 }
 #products{
     background:url(../img/services.jpg) no-repeat center fixed;
-    /* display: table; */
+    display: block;
 }
 
 .image-wrapper{
