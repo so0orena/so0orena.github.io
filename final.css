@@ -1,8 +1,8 @@
 body{
-    direction: rtl;
+    /* direction: rtl; */
 }
 #wrapper {
-    position: absolute;
+    /* position: absolute; */
     height:100%;
     width:100%;
 }
@@ -22,20 +22,22 @@ body{
     -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
     animation-name: animation-landing-moving;
     animation-duration: 4s;
+    padding-top: 5%;
+    padding-bottom: 20%;
 }
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes animation-landing-moving {
     0%   {top:300px;}
     
-    100% {top:100px;}
+    100% {top:15px;}
 }
 
 /* Standard syntax */
 @keyframes animation-landing-moving {
     0%   {top:300px;}
     
-    100% {top:100px;}
+    100% {top:15px;}
 }
 
 #landing{
@@ -49,6 +51,8 @@ body{
     background:url(../img/slider3.jpg) no-repeat center fixed;
     padding-top: 64px;
     text-align: center;
+    padding-top: 5%;
+    padding-bottom: 20%;
 }
 
 #aboutUs span{
@@ -57,7 +61,7 @@ body{
 }
 #gallery{
     background: #f3f3f3;
-    display: table;
+    /* display: table; */
     padding-top: 64px;
     padding-bottom: 64px;
     text-align: center;
@@ -75,14 +79,14 @@ body{
 }
 #blog{
     background:white;
-    display: table;
+    /* display: table; */
     padding-top: 64px;
     padding-bottom: 64px;
 
 }
 #products{
     background:url(../img/services.jpg) no-repeat center fixed;
-    display: table;
+    /* display: table; */
 }
 
 .image-wrapper{
