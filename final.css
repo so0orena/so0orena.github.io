@@ -1,3 +1,6 @@
+body{
+    direction: rtl;
+}
 #wrapper {
     position: absolute;
     height:100%;
@@ -36,14 +39,14 @@
 }
 
 #landing{
-    background:url(img/header.jpg) no-repeat center fixed;
+    background:url(../img/header.jpg) no-repeat center fixed;
     font-size: 120px;
     color: #ffcc33;
     text-align: center;
     
 }
 #aboutUs{
-    background:url(img/slider3.jpg) center fixed;
+    background:url(../img/slider3.jpg) no-repeat center fixed;
     padding-top: 64px;
     text-align: center;
 }
@@ -68,7 +71,7 @@
 
     
 #contact{
-    background:url(img/contact.jpg) center fixed;
+    background:url(../img/contact.jpg) no-repeat center fixed;
 }
 #blog{
     background:white;
