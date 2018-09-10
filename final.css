@@ -1,0 +1,170 @@
+#wrapper {
+    position: absolute;
+    height:100%;
+    width:100%;
+}
+.panels {
+  /* position:relative; */
+  height:100%;
+  min-height:100%;
+  width:100%;
+  z-index:1000;
+  
+}
+
+.animation-landing {
+    
+    position: relative;
+    -webkit-animation-name: animation-landing-moving; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: animation-landing-moving;
+    animation-duration: 4s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes animation-landing-moving {
+    0%   {top:300px;}
+    
+    100% {top:100px;}
+}
+
+/* Standard syntax */
+@keyframes animation-landing-moving {
+    0%   {top:300px;}
+    
+    100% {top:100px;}
+}
+
+#landing{
+    background:url(../img/header.jpg) no-repeat center fixed;
+    font-size: 120px;
+    color: #ffcc33;
+    text-align: center;
+    
+}
+#aboutUs{
+    background:url(../img/slider3.jpg) center fixed;
+    padding-top: 64px;
+    text-align: center;
+}
+
+#aboutUs span{
+    font-size: 64px;
+    
+}
+#gallery{
+    background: #f3f3f3;
+    display: table;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    text-align: center;
+    font-size: 64px;
+}
+#gallery img{
+    /* display: inline-block; */
+    max-height: 100%;
+    max-width: 100%;
+}
+
+    
+#contact{
+    background:url(../img/contact.jpg) center fixed;
+}
+#blog{
+    background:white;
+    display: table;
+    padding-top: 64px;
+    padding-bottom: 64px;
+
+}
+#products{
+    background:url(../img/services.jpg) no-repeat center fixed;
+    display: table;
+}
+
+.image-wrapper{
+    position: relative;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.image-hover{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: gray;
+    width: 80%;
+    height: 80%;
+    background: #808080 url(../img/add-plus2.png) no-repeat center center;
+    opacity: 0;
+}
+.image-wrapper:hover .image-hover{
+    opacity: 0.9;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 1800;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    opacity: 1;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+.overlay-show {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+.card-right-align{
+    text-align: right;
+    color: #fff;
+}
+.animation-card{
+    -ms-transform: rotateX(0deg) scale(0); /* IE 9 */
+    -webkit-transform: rotateX(0deg) scale(0);; /* Safari */
+    transform: rotateX(0deg) scale(0);; /* Standard syntax */
+    transition: 0.5s ease;
+}
+
+.play-animation-card{
+    -ms-transform: rotateX(360deg) scale(1); /* IE 9 */
+    -webkit-transform: rotateX(360deg) scale(1); /* Safari */
+    transform: rotateX(360deg) scale(1); /* Standard syntax */
+}
+
+.slides-right-to-left{
+    
+        position: relative;
+        -webkit-animation-name: slide-right-to-left ; /* Safari 4.0 - 8.0 */
+        -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+        animation-name: slide-right-to-left;
+        animation-duration: 1.5s;
+    
+    }
+    
+    
+    
+    @-webkit-keyframes slide-right-to-left {
+        0%   {opacity: 0;}
+        
+        100% {opacity: 1;}
+    }
+    
+    /* Standard syntax */
+    @keyframes slide-right-to-left {
+        0%   {opacity: 0;}
+        
+        100% {opacity: 1;}
+    }
